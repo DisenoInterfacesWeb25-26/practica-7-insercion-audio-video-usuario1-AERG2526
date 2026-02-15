@@ -1,0 +1,109 @@
+.navbar {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.text-principal {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5bdbf1;
+}
+.div-text {
+    max-width: 900px;
+}
+h3 {
+    font-size: 50px;
+}
+section {
+    margin-bottom: 90px;
+}
+
+.principal-articulos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-articulos {
+    width: 100%;
+    padding-top: 40px;
+}
+.tarjetas {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 20px;
+}
+.tarjeta {
+    width: 18rem;
+}
+.card .tarjeta {
+    margin-top: 15px;
+}
+
+footer {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.texto-footer {
+    font-size: 22px;
+}
+
+.section-contactos {
+    padding: 40px 15px 40px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.section-contactos {
+    padding: 40px 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.botonSubmit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.formulario {
+    margin-top: 25px;
+}
+.div-breadcrumb .paginacion {
+     width: 100%;
+    max-width: 500px;   /* igual que el formulario */
+    margin: 20px auto;
+
+
+}
+.formulario-contacto {
+    width: 100%;
+    max-width: 500px;   /* evita que se haga demasiado ancho */
+    margin: 0 auto; 
+ 
+}
+
+.tabla {
+    width: 100%;
+     max-width: 700px;   /* controla el ancho máximo visible */
+    margin: 0 auto;     /* centra la tabla */
+}
+.table-responsive {
+    width: 100%;
+}
+
+
+@media (min-width: 992px) {
+    .tabla {
+        width: 60%;
+    }
+}
