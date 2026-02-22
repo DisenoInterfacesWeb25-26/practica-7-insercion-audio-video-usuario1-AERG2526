@@ -1,4 +1,3 @@
-body { border: 10px solid red; }
 .navbar {
     padding-left: 35px;
     padding-right: 35px;
@@ -31,19 +30,13 @@ section {
 }
 .tarjetas {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;/*moviles*/
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     margin-top: 50px;
     gap: 20px;
 }
-.video {
-    width: 100%;
-    height: auto;
-    display:block
-}
-
 .tarjeta {
-    max-width: 16rem;
+    width: 18rem;
 }
 .card .tarjeta {
     margin-top: 15px;
@@ -108,14 +101,9 @@ footer {
     width: 100%;
 }
 
+
 @media (min-width: 992px) {
     .tabla {
         width: 60%;
-    }
-    .tarjetas {
-        display:flex;
-        flex-wrap: nowrap;   /* evita que bajen */
-        justify-content: space-evenly;
-        gap: 20px;
     }
 }
