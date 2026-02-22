@@ -1,6 +1,3 @@
-body {
-    border: 10px solid red;
-}
 
 /* Logo */
 .navbar {
@@ -54,10 +51,6 @@ section {
 
 /* Media query */
 @media (min-width: 992px) {
-    body {
-        background: yellow;
-    }
-
     .tarjetas {
         flex-wrap: nowrap;
         justify-content: space-between;
