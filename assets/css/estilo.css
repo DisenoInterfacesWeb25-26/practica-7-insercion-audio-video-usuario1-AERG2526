@@ -30,8 +30,8 @@ section {
 }
 .tarjetas {
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: nowrap;
     margin-top: 50px;
     gap: 20px;
 }
