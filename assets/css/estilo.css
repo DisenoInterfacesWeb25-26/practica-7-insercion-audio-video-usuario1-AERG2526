@@ -66,6 +66,9 @@ footer{
     max-width: 1200px;
 }
 @media (min-width: 992px) {
+    body {
+        background: yellow;
+    }
     .tarjetas {
         display: flex;
         flex-wrap: nowrap;        /* obliga a estar en una sola fila */
@@ -76,7 +79,8 @@ footer{
 
 
 .tarjeta {
-    width: 18rem;
+   flex: 0 0 18rem;
+
 }
 footer{
     height: 200px;
