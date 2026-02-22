@@ -1,94 +1,80 @@
-/*Logo*/
-.navbar{
+body {
+    border: 10px solid red;
+}
+
+/* Logo */
+.navbar {
     padding-left: 35px;
     padding-right: 35px;
 }
-/*primer bloque de articulo*/
-.text-principal{
-    padding: 30px 0px 30px 0px;
+
+/* Primer bloque */
+.text-principal {
+    padding: 30px 0;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #DEFAFF;
 }
-.div-text{
+
+.div-text {
     width: 80%;
 }
-section{
+
+section {
     margin-bottom: 90px;
 }
-/*segundo bloque de articulos*/
-.principal-articulos{
+
+/* Segundo bloque */
+.principal-articulos {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 40px;
     padding-right: 40px;
 }
-.div-articulos{
-     max-width: 1200px;
+
+.div-articulos {
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 40px 20px;  /* separación lateral */
-
-
+    padding: 40px 20px;
 }
-.tarjetas{
+
+.tarjetas {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    flex-wrap: nowrap;
     margin-top: 50px;
 }
+
 .tarjeta {
     width: 18rem;
+    flex: 0 0 18rem;
 }
-footer{
-    height: 200px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.texto-footer{
-    font-size: 22px;
-}
-/*segundo bloque de articulos*/
-.principal-articulos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-.div-articulos{
-    width: 100%;
-    margin: 0 auto;
-    padding-top: 40px;
-    max-width: 1200px;
-}
+
+/* Media query */
 @media (min-width: 992px) {
     body {
         background: yellow;
     }
+
     .tarjetas {
-        display: flex;
-        flex-wrap: nowrap;        /* obliga a estar en una sola fila */
+        flex-wrap: nowrap;
         justify-content: space-between;
-        gap: 20px;                /* separación entre tarjetas */
+        gap: 20px;
     }
 }
 
-
-.tarjeta {
-   flex: 0 0 18rem;
-
-}
-footer{
+/* Footer */
+footer {
     height: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
-.texto-footer{
+
+.texto-footer {
     font-size: 22px;
 }
+
