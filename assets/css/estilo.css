@@ -38,11 +38,11 @@ section {
 .video {
     width: 100%;
     height: auto;
+    display:block
 }
 
-
 .tarjeta {
-    width: 15rem;
+    max-width: 16rem;
 }
 .card .tarjeta {
     margin-top: 15px;
@@ -107,13 +107,14 @@ footer {
     width: 100%;
 }
 
-
 @media (min-width: 992px) {
     .tabla {
         width: 60%;
     }
     .tarjetas {
+        display:flex;
         flex-wrap: nowrap;   /* evita que bajen */
         justify-content: space-evenly;
+        gap: 20px;
     }
 }
