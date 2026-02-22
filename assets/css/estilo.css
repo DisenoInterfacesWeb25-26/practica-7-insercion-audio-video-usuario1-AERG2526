@@ -22,12 +22,17 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+
 }
 .div-articulos{
-    width: 90%;
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 100%;
+    margin: 0 auto;
     padding-top: 40px;
+    max-width: 1200px;
+
+
 }
 .tarjetas{
     display: flex;
