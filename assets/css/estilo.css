@@ -31,12 +31,18 @@ section {
 .tarjetas {
     display: flex;
     justify-content: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;/*moviles*/
     margin-top: 50px;
     gap: 20px;
 }
+.video {
+    width: 100%;
+    height: auto;
+}
+
+
 .tarjeta {
-    width: 18rem;
+    width: 15rem;
 }
 .card .tarjeta {
     margin-top: 15px;
@@ -105,5 +111,9 @@ footer {
 @media (min-width: 992px) {
     .tabla {
         width: 60%;
+    }
+    .tarjetas {
+        flex-wrap: nowrap;   /* evita que bajen */
+        justify-content: space-evenly;
     }
 }
