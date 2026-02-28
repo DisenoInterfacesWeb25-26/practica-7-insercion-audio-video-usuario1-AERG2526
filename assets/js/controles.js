@@ -19,7 +19,7 @@ function accionReiniciar(){
   if (medio.currentTime > 0){
 	medio.currentTime = 0;
 	medio.play();
-	reiniciar.value = "||";
+	reiniciar.value ='||';
 	document.body.style.backgroundColor = 'grey';
   }
 }

@@ -70,4 +70,24 @@ footer {
 .texto-footer {
     font-size: 22px;
 }
-
+.video{
+    width: 100%;
+    height: 162px;
+}
+audio{
+    width: 100%;
+    margin-top:15px;
+}
+.containerVideo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.tituloVideo{
+    margin-bottom: 20px;
+}
+.controles{
+    margin-top:40px;
+}
