@@ -80,6 +80,9 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+
 }
 .botonSubmit{
     display: flex;
@@ -87,9 +90,17 @@ footer {
     align-items: center;
     margin-top: 40px;
 }
-.formulario{
-    margin-top: 25px;
+
+.formulario-contacto {
+    width: 100%;
+    max-width: 600px;              
+    margin: 60px auto 80px auto;   
+    padding: 30px 35px;            
+    background: #ffffff;          
+    border-radius: 12px;           
+    box-shadow: 0 4px 20px rgba(0,0,0,0.12);  /* Sombra suave */
 }
+
 .div-breadcrumb{
     margin-top: 25px;
     margin-bottom: 25px;
