@@ -58,14 +58,31 @@
         </div>
     </div>
     </nav>
-<section>
-
-
-    <!--falta codigo reproduccion de audio y video-->
-</section>
-
-
-
+        <section>
+            <div class="containerVideo">
+                <div class="tituloVideo">
+                    <h2>Control de video</h2>
+                 </div>
+                <div>
+                    <video id="medio" width="720" height="400">
+                        <source src="./assets/video/big_buck_bunny.mp4">
+                        <source src="./assets/video/big_buck_bunny.ogv">
+                    </video>
+                </div>
+                <div class="controles">
+                    <nav>
+                        <input type="button" id="reiniciar" value="reiniciar">
+                        <input type="button" id="retrasar" value="&laquo;">
+                        <input type="button" id="play" value="&#9658;">
+                        <input type="button" id="adelantar" value="&raquo;">
+                        <input type="button" id="silenciar" value="silenciar">
+                        <label>Volumen</label>
+                        <input type="button" id="menosVolumen" value="-">
+                        <input type="button" id="masVolumen" value="+">
+                    </nav>
+                </div>
+            </div>   
+        </section>
     <footer class="bg-info d-flex justify-content-around align-items-center flex-wrap py-4">
         <div>
             <p class="text-center text-light texto-footer">Enuin.com</p>
